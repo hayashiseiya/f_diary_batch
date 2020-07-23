@@ -1,9 +1,9 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
 Description: >
-  f_diary_new
+  f_diary_batch
 
-  Sample SAM Template for f_diary_new
+  Sample SAM Template for f_diary_batch
 
 # More info about Globals: https://github.com/awslabs/serverless-application-model/blob/master/docs/globals.rst
 Globals:
