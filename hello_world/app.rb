@@ -13,11 +13,12 @@ class Scraping
     class << self
       def run
         bags = bags_from_html
+        # bags を保存する処理
 
         {
           statusCode: 200,
-          body: bags
-        }.to_json
+          body: {}.to_json
+        }
       end
 
       private
